@@ -1,0 +1,158 @@
+
+<style>
+#maincont {
+    width:680px;
+    height:455px;
+    background-color: rgba(125, 122, 122, 0.629);
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+position:relative;
+left:95px;
+  padding: 0px 10px;
+  overflow:auto;
+
+}
+
+.sidenav {
+    text-align: center;
+  width: 190px;
+  height:455px;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  left: 15px;
+  background: #eee;
+  overflow-x: auto;
+  margin-left: 305px;
+ /* Same width as the sidebar + left position in px */
+
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media only screen and (max-width: 600px) {
+  .sidenav {margin-left:-10px;}
+  #maincont {margin-left: 90px;margin-right:10px;}
+}
+
+@font-face {
+    font-family: pebisbal;
+    src: url(https://dl.dropbox.com/s/h1893p3fu9ecwsx/Bohemian%20Soul.otf);
+}
+@font-face {
+font-family:'pebis';
+src: url(https://dl.dropbox.com/s/ct0s037q78sao3f/Frighted.ttf);
+ 
+}
+
+
+.sling:hover{
+	-webkit-animation: sling 1s both ;
+	        animation: sling 1s both ;
+}
+@-webkit-keyframes sling {
+  0% {
+    -webkit-transform: skew(0deg 0deg);
+            transform: skew(0deg 0deg);
+  }
+  30% {
+    -webkit-transform: skew(50deg 50deg);
+            transform: skew(50deg 50deg);
+  }
+  40% {
+    -webkit-transform: skew(-15deg, -50deg);
+            transform: skew(-15deg, -50deg);
+  }
+  50% {
+    -webkit-transform: skew(15deg, 15deg);
+            transform: skew(15deg, 15deg);
+  }
+  65% {
+    -webkit-transform: skew(-50deg, -5deg);
+            transform: skew(-50deg, -5deg);
+  }
+  75% {
+    -webkit-transform: skew(50deg, 50deg);
+            transform: skew(50deg, 50deg);
+  }
+  100% {
+    -webkit-transform: skew(0deg 0deg);
+            transform: skew(0deg 0deg);
+  }
+}
+@keyframes sling {
+  0% {
+    -webkit-transform: skew(0deg 0deg);
+            transform: skew(0deg 0deg);
+  }
+  30% {
+    -webkit-transform: skew(25deg 25deg);
+            transform: skew(25deg 25deg);
+  }
+  40% {
+    -webkit-transform: skew(-15deg, -15deg);
+            transform: skew(-15deg, -15deg);
+  }
+  50% {
+    -webkit-transform: skew(15deg, 15deg);
+            transform: skew(15deg, 15deg);
+  }
+  65% {
+    -webkit-transform: skew(-5deg, -5deg);
+            transform: skew(-5deg, -5deg);
+  }
+  75% {
+    -webkit-transform: skew(5deg, 5deg);
+            transform: skew(5deg, 5deg);
+  }
+  100% {
+    -webkit-transform: skew(0deg 0deg);
+            transform: skew(0deg 0deg);
+  }
+  
+
+}
+
+  a {
+text-decoration: none;
+letter-spacing: 0.24em;
+color:rgb(76, 76, 76);
+box-shadow: inset 0 0 0 0 rgb(76, 76, 76);
+font-size: 0.7em;
+-webkit-transition: all ease 0.5s;
+-moz-transition: all ease 0.5s;
+transition: all ease 0.5s;
+}
+
+a:hover {
+color:black;
+
+box-shadow: inset 0 30px 0 0 rgb(111, 111, 111);
+}
+
+
+</style>
+
+<head><meta name="viewport" content="width=device-width, initial-scale=1.0"><body>
+
+
+<div class="sidenav"><img src="http://pm1.narvii.com/6187/6face569862f627e5b483ebc4856adc624909349_00.jpg" style="width:190px"><strong><p style="font-family:pebisbal;line-height:0.2px;font-size:x-large;">Navigate <em>!</em></p></strong><hr>
+    <div style="width: 5em;  height: 5em;font-family:pebis;font-size:2em;">
+      <div class="sling"><a href="#"><img src="https://terror.crd.co/assets/images/gallery10/50d52841.png?v=ce5115f4" style="position:relative;top:5px;"> OPTION 1</a></div>
+      <div class="sling"><a href="#"><img src="https://terror.crd.co/assets/images/gallery10/50d52841.png?v=ce5115f4" style="position:relative;top:5px;"> OPTION 2</a></div>
+      <div class="sling"><a href="#"><img src="https://terror.crd.co/assets/images/gallery10/50d52841.png?v=ce5115f4" style="position:relative;top:5px;"> OPTION 3</a></div>
+      <div class="sling"><a href="#"><img src="https://terror.crd.co/assets/images/gallery10/50d52841.png?v=ce5115f4" style="position:relative;top:5px;"> OPTION 4</a></div>
+      <div class="sling"><a href="#"><img src="https://terror.crd.co/assets/images/gallery10/50d52841.png?v=ce5115f4" style="position:relative;top:5px;"> OPTION 5</a></div>
+    </div></div>
+    <div id="maincont"> text text text text text <br>text text text text text <br><br><br><br>text text text text text <img src="https://supplies.ju.mp/assets/images/gallery07/03af819f.gif?v=88438ad1" style="width:300px;"> </div>
+
+
+
+</body></head>
